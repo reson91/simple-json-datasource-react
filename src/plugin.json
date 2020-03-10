@@ -1,0 +1,33 @@
+{
+    "name": "JSON",
+    "id": "react-json-datasource",
+    "type": "datasource",
+    "metrics": true,
+    "annotations": true,
+    "info": {
+        "author": {
+            "name": "Open Source Friends"
+        },
+        "description": "React JSON over HTTP datasource",
+        "logos": {
+            "small": "img/json-logo.svg",
+            "large": "img/json-logo.svg"
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/simPod/grafana-json-datasource"
+            },
+            {
+                "name": "MIT License",
+                "url": "https://github.com/simPod/grafana-json-datasource/blob/master/LICENSE"
+            }
+        ],
+        "version": "%VERSION%",
+        "updated": "%TODAY%"
+    },
+    "dependencies": {
+        "grafanaVersion": "6.4.x",
+        "plugins": [ ]
+    }
+}
